@@ -19,13 +19,15 @@
             {
                 "id": "nginx",
                 "aliases": [
-                    "NGINX Conf",
-                    "nginx"
+                    "NGINX with RTMP",
+                    "nginx",
+                    "nginx-rtmp"
                 ],
                 "extensions": [
                     "nginx.conf",
                     ".conf",
-                    ".nginx"
+                    ".nginx",
+                    ".ngx"
                 ],
                 "configuration": "./nginx.configuration.json"
             }
@@ -34,7 +36,7 @@
             {
                 "language": "nginx",
                 "scopeName": "source.nginx",
-                "path": "./syntaxes/nginx.tmLanguage.json"
+                "path": "./syntaxes/nginx-rtmp.tmLanguage.json"
             }
         ]
     },
